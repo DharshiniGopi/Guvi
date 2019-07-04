@@ -1,4 +1,8 @@
-if int(input())%2 == 0:
-  print("Even")
+num = int(input())
+if num>0:
+  if num%2 == 0:
+    print("Even")
+  else:
+    print("Odd")
 else:
-  print("Odd")
+  print("Invalid")
